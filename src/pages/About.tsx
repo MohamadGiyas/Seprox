@@ -1,28 +1,32 @@
-import { motion } from 'framer-motion';
-import { Layout } from '@/components/layout/Layout';
-import { Users, Target, Award, Rocket } from 'lucide-react';
-import { CTASection } from '@/components/sections/CTASection';
+import { motion } from "framer-motion";
+import { Layout } from "@/components/layout/Layout";
+import { Users, Target, Award, Rocket } from "lucide-react";
+import { CTASection } from "@/components/sections/CTASection";
 
 const values = [
   {
     icon: Target,
-    title: 'Fokus pada Kualitas',
-    description: 'Kami selalu mengutamakan kualitas dalam setiap project yang kami kerjakan.',
+    title: "Fokus pada Kualitas",
+    description:
+      "Kami selalu mengutamakan kualitas dalam setiap project yang kami kerjakan.",
   },
   {
     icon: Users,
-    title: 'Tim Profesional',
-    description: 'Developer berpengalaman yang siap membantu mewujudkan aplikasi impian Anda.',
+    title: "Tim Profesional",
+    description:
+      "Developer berpengalaman yang siap membantu mewujudkan aplikasi impian Anda.",
   },
   {
     icon: Award,
-    title: 'Komitmen Tinggi',
-    description: 'Kami berkomitmen menyelesaikan setiap project tepat waktu dan sesuai requirement.',
+    title: "Komitmen Tinggi",
+    description:
+      "Kami berkomitmen menyelesaikan setiap project tepat waktu dan sesuai requirement.",
   },
   {
     icon: Rocket,
-    title: 'Inovasi Berkelanjutan',
-    description: 'Selalu update dengan teknologi terbaru untuk memberikan solusi terbaik.',
+    title: "Inovasi Berkelanjutan",
+    description:
+      "Selalu update dengan teknologi terbaru untuk memberikan solusi terbaik.",
   },
 ];
 
@@ -45,7 +49,8 @@ const About = () => {
               Tentang <span className="text-gradient">SEPROX</span>
             </h1>
             <p className="text-muted-foreground text-lg">
-              Agency pengembangan aplikasi profesional yang berdedikasi untuk membantu bisnis dan mahasiswa
+              Agency pengembangan aplikasi profesional yang berdedikasi untuk
+              membantu bisnis dan mahasiswa
             </p>
           </motion.div>
         </div>
@@ -64,22 +69,29 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Cerita Kami
               </h2>
+
               <div className="space-y-4 text-muted-foreground leading-relaxed text-justify">
                 <p>
-                  SEPROX adalah agency pengembangan aplikasi yang didirikan dengan visi untuk 
-                  membantu bisnis dan individu mewujudkan solusi digital dengan hasil yang profesional dan berkualitas.
+                  SEPROX adalah agency pengembangan aplikasi yang didirikan
+                  dengan visi untuk membantu bisnis dan individu mewujudkan
+                  solusi digital dengan hasil yang profesional dan berkualitas.
                 </p>
                 <p>
-                  Kami berfokus pada pembuatan website, aplikasi, dan sistem digital yang tidak hanya berfungsi dengan baik, 
-                  tetapi juga terlihat modern, elegan, dan siap digunakan untuk meningkatkan kepercayaan pelanggan.
+                  Kami berfokus pada pembuatan website, aplikasi, dan sistem
+                  digital yang tidak hanya berfungsi dengan baik, tetapi juga
+                  terlihat modern, elegan, dan siap digunakan untuk meningkatkan
+                  kepercayaan pelanggan.
                 </p>
                 <p>
-                  Selain melayani kebutuhan bisnis, SEPROX juga menerima jasa pembuatan tugas kuliah dan project skripsi, 
-                  mulai dari pembuatan program, laporan, hingga dokumentasi dengan hasil yang rapi, terstruktur, dan mudah dipahami.
+                  Selain melayani kebutuhan bisnis, SEPROX juga menerima jasa
+                  pembuatan tugas kuliah dan project skripsi, mulai dari
+                  pembuatan program, laporan, hingga dokumentasi dengan hasil
+                  yang rapi, terstruktur, dan mudah dipahami.
                 </p>
               </div>
             </motion.div>
 
+            {/* Cards (FIX: tidak kepotong di HP) */}
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -87,21 +99,40 @@ const About = () => {
               transition={{ duration: 0.6 }}
               className="grid grid-cols-2 gap-6"
             >
-              <div className="bg-card rounded-2xl p-8 shadow-card border border-border text-center">
-                <div className="text-4xl font-bold text-gradient mb-2">Project Custom</div>
-                <div className="text-muted-foreground">Sesuai Kebutuhan Klien</div>
+              <div className="bg-card rounded-2xl p-5 sm:p-8 shadow-card border border-border text-center">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gradient mb-2 break-words leading-tight">
+                  Project Custom
+                </div>
+                <div className="text-muted-foreground text-sm sm:text-base">
+                  Sesuai Kebutuhan Klien
+                </div>
               </div>
-              <div className="bg-card rounded-2xl p-8 shadow-card border border-border text-center">
-                <div className="text-4xl font-bold text-gradient mb-2">Fast Delivery</div>
-                <div className="text-muted-foreground">Pengerjaan Cepat & Terarah</div>
+
+              <div className="bg-card rounded-2xl p-5 sm:p-8 shadow-card border border-border text-center">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gradient mb-2 break-words leading-tight">
+                  Fast Delivery
+                </div>
+                <div className="text-muted-foreground text-sm sm:text-base">
+                  Pengerjaan Cepat & Terarah
+                </div>
               </div>
-              <div className="bg-card rounded-2xl p-8 shadow-card border border-border text-center">
-                <div className="text-4xl font-bold text-gradient mb-2">Flexible Revision</div>
-                <div className="text-muted-foreground">Revisi Fleksibel</div>
+
+              <div className="bg-card rounded-2xl p-5 sm:p-8 shadow-card border border-border text-center">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gradient mb-2 break-words leading-tight">
+                  Flexible Revision
+                </div>
+                <div className="text-muted-foreground text-sm sm:text-base">
+                  Revisi Fleksibel
+                </div>
               </div>
-              <div className="bg-card rounded-2xl p-8 shadow-card border border-border text-center">
-                <div className="text-4xl font-bold text-gradient mb-2">24/7 Support</div>
-                <div className="text-muted-foreground">Dukungan Selalu Tersedia</div>
+
+              <div className="bg-card rounded-2xl p-5 sm:p-8 shadow-card border border-border text-center">
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gradient mb-2 break-words leading-tight">
+                  24/7 Support
+                </div>
+                <div className="text-muted-foreground text-sm sm:text-base">
+                  Dukungan Selalu Tersedia
+                </div>
               </div>
             </motion.div>
           </div>

@@ -50,8 +50,6 @@ export const CTASection = () => {
               </a>
             </Button>
           </div>
-
-          
         </motion.div>
       </div>
     </section>
