@@ -5,7 +5,8 @@ const features = [
   {
     icon: Check,
     title: 'Profesional & Tepat Waktu',
-    description: 'Pengerjaan project dengan standar profesional dan sesuai timeline yang disepakati.',
+    description:
+      'Pengerjaan project dengan standar profesional dan sesuai timeline yang disepakati.',
   },
   {
     icon: Zap,
@@ -15,7 +16,8 @@ const features = [
   {
     icon: Users,
     title: 'Support Revisi & Maintenance',
-    description: 'Garansi revisi dan layanan maintenance berkelanjutan setelah project selesai.',
+    description:
+      'Garansi revisi dan layanan maintenance berkelanjutan setelah project selesai.',
   },
   {
     icon: DollarSign,
@@ -49,12 +51,14 @@ export const WhyChooseSection = () => {
             <span className="text-primary font-semibold text-sm uppercase tracking-wider">
               Why Choose Us
             </span>
+
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-4 mb-6">
               Mengapa Memilih <span className="text-gradient">SEPROX</span>?
             </h2>
+
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              Kami berkomitmen memberikan layanan terbaik dengan kualitas premium 
-              untuk setiap project yang kami kerjakan.
+              Kami berkomitmen memberikan layanan terbaik dengan hasil yang profesional,
+              rapi, dan siap digunakan untuk kebutuhan Anda.
             </p>
 
             {/* Features Grid */}
@@ -71,6 +75,7 @@ export const WhyChooseSection = () => {
                   <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
                     <feature.icon className="h-6 w-6 text-primary" />
                   </div>
+
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">
                       {feature.title}
@@ -96,34 +101,34 @@ export const WhyChooseSection = () => {
               {/* Stats */}
               <div className="space-y-8">
                 <div className="text-center">
-                  <div className="text-6xl font-bold text-gradient mb-2">100+</div>
-                  <div className="text-muted-foreground">Project Diselesaikan</div>
+                  <div className="text-5xl md:text-6xl font-bold text-gradient mb-2">
+                    Project Custom
+                  </div>
+                  <div className="text-muted-foreground">Solusi sesuai kebutuhan</div>
                 </div>
+
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center p-4 bg-secondary rounded-xl">
-                    <div className="text-3xl font-bold text-foreground mb-1">98%</div>
-                    <div className="text-sm text-muted-foreground">Klien Puas</div>
+                    <div className="text-2xl md:text-3xl font-bold text-foreground mb-1">
+                      Full Support
+                    </div>
+                    <div className="text-sm text-muted-foreground">Support responsif</div>
                   </div>
+
                   <div className="text-center p-4 bg-secondary rounded-xl">
-                    <div className="text-3xl font-bold text-foreground mb-1">24/7</div>
-                    <div className="text-sm text-muted-foreground">Support</div>
+                    <div className="text-2xl md:text-3xl font-bold text-foreground mb-1">
+                      Revisi Aman
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      Fleksibel sesuai kebutuhan
+                    </div>
                   </div>
                 </div>
-                <div className="flex items-center justify-center gap-4">
-                  <div className="flex -space-x-3">
-                    {[1, 2, 3, 4].map((i) => (
-                      <div
-                        key={i}
-                        className="w-10 h-10 rounded-full bg-primary/20 border-2 border-card flex items-center justify-center"
-                      >
-                        <span className="text-xs font-semibold text-primary">
-                          {String.fromCharCode(64 + i)}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                  <span className="text-sm text-muted-foreground">
-                    Bergabung dengan 50+ klien
+
+                {/* Text Center Only (ABCD removed) */}
+                <div className="flex justify-center">
+                  <span className="text-sm text-muted-foreground text-center px-5 py-2 bg-secondary rounded-full">
+                    Partner digital untuk kebutuhan Anda
                   </span>
                 </div>
               </div>

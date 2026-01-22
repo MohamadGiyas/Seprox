@@ -51,21 +51,7 @@ export const CTASection = () => {
             </Button>
           </div>
 
-          {/* Trust badges */}
-          <div className="flex flex-wrap justify-center gap-8 mt-12 pt-8 border-t border-primary-foreground/10">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary-foreground">100+</div>
-              <div className="text-sm text-primary-foreground/60">Project Selesai</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary-foreground">98%</div>
-              <div className="text-sm text-primary-foreground/60">Klien Puas</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary-foreground">5+</div>
-              <div className="text-sm text-primary-foreground/60">Tahun Pengalaman</div>
-            </div>
-          </div>
+          
         </motion.div>
       </div>
     </section>

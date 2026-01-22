@@ -64,19 +64,18 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Cerita Kami
               </h2>
-              <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <div className="space-y-4 text-muted-foreground leading-relaxed text-justify">
                 <p>
                   SEPROX adalah agency pengembangan aplikasi yang didirikan dengan visi untuk 
-                  membantu bisnis dan individu mewujudkan solusi digital mereka dengan kualitas premium.
+                  membantu bisnis dan individu mewujudkan solusi digital dengan hasil yang profesional dan berkualitas.
                 </p>
                 <p>
-                  Dengan pengalaman lebih dari 5 tahun di industri teknologi, kami telah berhasil 
-                  menyelesaikan lebih dari 100 project untuk berbagai klien, mulai dari startup, 
-                  UMKM, hingga perusahaan besar.
+                  Kami berfokus pada pembuatan website, aplikasi, dan sistem digital yang tidak hanya berfungsi dengan baik, 
+                  tetapi juga terlihat modern, elegan, dan siap digunakan untuk meningkatkan kepercayaan pelanggan.
                 </p>
                 <p>
-                  Kami juga aktif membantu mahasiswa dalam pembuatan project skripsi dan tugas kuliah, 
-                  dengan komitmen untuk memberikan hasil berkualitas dan dokumentasi lengkap.
+                  Selain melayani kebutuhan bisnis, SEPROX juga menerima jasa pembuatan tugas kuliah dan project skripsi, 
+                  mulai dari pembuatan program, laporan, hingga dokumentasi dengan hasil yang rapi, terstruktur, dan mudah dipahami.
                 </p>
               </div>
             </motion.div>
@@ -89,20 +88,20 @@ const About = () => {
               className="grid grid-cols-2 gap-6"
             >
               <div className="bg-card rounded-2xl p-8 shadow-card border border-border text-center">
-                <div className="text-4xl font-bold text-gradient mb-2">100+</div>
-                <div className="text-muted-foreground">Project Selesai</div>
+                <div className="text-4xl font-bold text-gradient mb-2">Project Custom</div>
+                <div className="text-muted-foreground">Sesuai Kebutuhan Klien</div>
               </div>
               <div className="bg-card rounded-2xl p-8 shadow-card border border-border text-center">
-                <div className="text-4xl font-bold text-gradient mb-2">50+</div>
-                <div className="text-muted-foreground">Klien Puas</div>
+                <div className="text-4xl font-bold text-gradient mb-2">Fast Delivery</div>
+                <div className="text-muted-foreground">Pengerjaan Cepat & Terarah</div>
               </div>
               <div className="bg-card rounded-2xl p-8 shadow-card border border-border text-center">
-                <div className="text-4xl font-bold text-gradient mb-2">5+</div>
-                <div className="text-muted-foreground">Tahun Pengalaman</div>
+                <div className="text-4xl font-bold text-gradient mb-2">Flexible Revision</div>
+                <div className="text-muted-foreground">Revisi Fleksibel</div>
               </div>
               <div className="bg-card rounded-2xl p-8 shadow-card border border-border text-center">
-                <div className="text-4xl font-bold text-gradient mb-2">98%</div>
-                <div className="text-muted-foreground">Rating Kepuasan</div>
+                <div className="text-4xl font-bold text-gradient mb-2">24/7 Support</div>
+                <div className="text-muted-foreground">Dukungan Selalu Tersedia</div>
               </div>
             </motion.div>
           </div>

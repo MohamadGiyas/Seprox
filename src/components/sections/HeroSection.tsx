@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, MessageCircle, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import heroImage from '@/assets/hero-mockup.jpg';
+import heroImage from '@/assets/mockup.png';
 
 const WHATSAPP_LINK = 'https://wa.me/6285861821370?text=Halo%20SEPROX,%20saya%20ingin%20konsultasi%20project%20aplikasi';
 
@@ -50,7 +50,7 @@ export const HeroSection = () => {
 
             {/* Description */}
             <p className="text-muted-foreground leading-relaxed max-w-lg">
-              Kami membantu Anda mewujudkan aplikasi impian dengan kualitas premium, 
+              Kami membantu Anda mewujudkan aplikasi impian dengan berkualitas, 
               harga terjangkau, dan support profesional.
             </p>
 
@@ -82,16 +82,16 @@ export const HeroSection = () => {
             {/* Stats */}
             <div className="flex gap-8 pt-4">
               <div>
-                <div className="text-3xl font-bold text-foreground">100+</div>
-                <div className="text-sm text-muted-foreground">Project Selesai</div>
+                <div className="text-3xl font-bold text-foreground">Project Custom</div>
+                <div className="text-sm text-muted-foreground">Sesuai Kebutuhan Klien</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-foreground">50+</div>
-                <div className="text-sm text-muted-foreground">Klien Puas</div>
+                <div className="text-3xl font-bold text-foreground">Fast Response</div>
+                <div className="text-sm text-muted-foreground">Respon cepat & jelas</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-foreground">5+</div>
-                <div className="text-sm text-muted-foreground">Tahun Pengalaman</div>
+                <div className="text-3xl font-bold text-foreground">Full Support</div>
+                <div className="text-sm text-muted-foreground">Dari awal sampai selesai</div>
               </div>
             </div>
           </motion.div>
@@ -126,7 +126,7 @@ export const HeroSection = () => {
                   </div>
                   <div>
                     <div className="text-sm font-semibold text-foreground">Premium Quality</div>
-                    <div className="text-xs text-muted-foreground">Trusted by 50+ clients</div>
+                    <div className="text-xs text-muted-foreground">Trusted</div>
                   </div>
                 </div>
               </motion.div>

@@ -25,15 +25,10 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Lokasi',
-    value: 'Jakarta, Indonesia',
+    value: 'Karawang, Indonesia',
     link: null,
   },
-  {
-    icon: Clock,
-    title: 'Jam Operasional',
-    value: 'Sen - Sab: 09.00 - 21.00 WIB',
-    link: null,
-  },
+  
 ];
 
 const Contact = () => {
